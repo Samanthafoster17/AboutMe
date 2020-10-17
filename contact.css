@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    background-color: rgb(25, 25, 66);
+    padding: 20px;
+    font-size: 25px;
+    border: solid 10px tan;
+}
+
+
+
+.nav-link{
+    border: solid 10px tan;
+    background-color: rgb(25, 25, 66);
+    color: rgb(168, 148, 131);
+    font-weight: bold;
+    padding: 15px;
+}
+
+.nav-link:hover{
+    color:white;
+    
+}
+.navnar-expand-lg{
+    background-color: tan;
+}
+
+.btn{
+    background-color: tan;
+    color: rgb(25, 25, 66);
+    border-color: rgb(25, 25, 66);
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(25, 25, 66);
+}
+
+.wrapper{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin-right: 23%;
+    margin-bottom: 20px;
+}
+
+.card{
+    background-color: rgb(25, 25, 66);
+}
+
+h1{
+    color:tan;
+    padding: 20px;
+    border-bottom: solid 5px tan;
+}
+
+
+body
+{
+    background-color:rgb(255, 233, 214);
+    margin: 0;
+    padding: 0;
+ }
+
+
+.container{
+    background-color:tan;
+    color: tan;
+}
+
+
+
+.page-footer{
+    background-color: tan;
+    color: rgb(25, 25, 66);
+    border: 2px solid rgb(25, 25, 66);
+    margin-top: 10%;
+    padding: 20px;
+    position: sticky;
+    text-align: center;
+    width: 100%;
+}
+
+#portrait{
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+    }
+
+@media screen and (max-width: 768px){
+   
+
+#portrait{
+        width: 100%;
+        height: auto;        
+    }
+    
+.container{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+   
+}
+
+
+}
