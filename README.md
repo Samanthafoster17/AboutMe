@@ -1,6 +1,6 @@
 # AboutMe
 ##Description:
-A quick summary of Samantha foster so viewers may become more familiar her, also links to prorfolio and contact pages!
+A quick summary of Samantha foster so viewers may become more familiar her, also links to portfolio and contact pages!
 Created with bootstrap, HTML, and CSS
 
 ##Image:
