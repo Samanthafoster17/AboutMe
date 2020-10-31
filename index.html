@@ -1,106 +1,502 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <title>About Me</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-  <meta charset="UTF-8">
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
-  <title>About-Me</title>
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css">
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
 </head>
-
 
 <body>
 
-  <div class="navbar-wrapper">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand text-white" href="#">Samantha Foster</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container-fluid">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link text-white" href="./index.html">About<span
-                class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="./contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="./portfolio.html">Portfolio</a>
-          </li>
-        </ul>
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto">Samantha Foster</a></h1>
+     
       </div>
-    </nav>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li> <a class="flex-sm-fill text-sm-center nav-link" href="https://docs.google.com/document/d/1nRed_nGwokDkAA4YGedg2uHGmBaa0ecF-PwhtHP84gc/export?format=pdf" target="_blank" title="Resume.pdf"> Resume </a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+       
+          <li class="menu-has-children"><a href="">social-links</a>
+            <ul>
+              <li><a style="font-weight: bold;" href="https://github.com/Samanthafoster17" title="https://github.com/Samanthafoster17" target="_blank">Github</a></li>
+              <li><a style="font-weight: bold;" href="https://www.linkedin.com/in/samantha-foster-1b1b141b2/" title="https://www.linkedin.com/in/samantha-foster-1b1b141b2/" target="_blank">Linkedin</a></li>
+            
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+            
+              </div>
+            </div>
+          </div>
+
+  
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+              
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+   
+
+    <!--==========================
+      About Us Section
+    ============================-->
+
+         <header class="section-header">
+          <h3>About Me</h3>
+         
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-3 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img id="about"src="" alt="" class="img-fluid">
+              
+              </div>
+              <h2 class="title"><a href="#"></a></h2>
+              <p>
+             
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="./Screenshot 2020-10-16 160159.png" alt="photo of samantha-foster-1b1b141b2" class="img-fluid">
+      
+              </div>
+              <h2 class="title"><a href="#"></a></h2>
+              <p style="text-align: center;">
+                Welcome! My name is Samantha Foster, Full stack web developer who has a passion for problem solving!
+                Realizing each problem is an opportunity to gain more knowledge! After working many years with
+                companies that limited room for growth, Decided to open more opportunities and began studying Full
+                stack web development at Johns Hopkins University. While enrolled, always made time outside of class
+                to apply and challenge newly developed skills by creating additional projects, collaborating with
+                classmates, and reviewing previous projects to add improvements. Aside from development enjoys
+                family time, exercise and cooking new foods. Motivated to join a team that will allow skills to not
+                only be applied but also challenged. Thank you for taking the time to read about me! Please feel
+                free to send a message and connect using social-links!
+           
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="" alt="" class="img-fluid">
+               
+              </div>
+              <h2 class="title"><a href="#"></a></h2>
+              <p>
+             
+            </div>
+          </div>
+
+         </div>
+
+      </div>
+  </section>
+
+
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio"  class="section-bg" >
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">My Portfolio</h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- <ul id="portfolio-flters"> -->
+              <!-- <li data-filter="*" class="filter-active">All</li> -->
+              <!-- <li data-filter=".filter-app">App</li> -->
+              <!-- <li data-filter=".filter-card">Card</li> -->
+              <!-- <li data-filter=".filter-web">Web</li> -->
+            <!-- </ul> -->
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="https://github.com/Terd47/smart-events-app/raw/master/Assets/images/screenshot.png?raw=true" class="img-fluid" alt="">
+                <a href="https://github.com/Terd47/smart-events-app/raw/master/Assets/images/screenshot.png?raw=true" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="https://terd47.github.io/smart-events-app/" class="link-details" title="Visit Site"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://terd47.github.io/smart-events-app/">Smart Events</a></h4>
+                <p>
+                  <a href="https://github.com/Terd47/smart-events-app" target="_blank" role="button" aria-pressed="true" id="github" title="View Github Repository"><i class="fa fa-github"></i></a>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="https://user-images.githubusercontent.com/68489432/94578338-9d4cff00-0245-11eb-93ea-19d5a5b7c02b.png" class="img-fluid" alt="">
+                <a href="https://user-images.githubusercontent.com/68489432/94578338-9d4cff00-0245-11eb-93ea-19d5a5b7c02b.png" class="link-preview" data-lightbox="portfolio" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="https://samanthafoster17.github.io/Weather-Dashboard/" class="link-details" title="Visit Site"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://samanthafoster17.github.io/Weather-Dashboard/">Weather-Dashboard</a></h4>
+                <p><a href="https://github.com/Samanthafoster17/Weather-Dashboard" target="_blank" role="button" aria-pressed="true" id="github"><i class="fa fa-github"></i> </a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="https://user-images.githubusercontent.com/68489432/95685547-881d8c00-0bc6-11eb-9eea-0fd334ee378e.png" class="img-fluid" alt="">
+                <a href="https://user-images.githubusercontent.com/68489432/95685547-881d8c00-0bc6-11eb-9eea-0fd334ee378e.png" class="link-preview" data-lightbox="portfolio" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="https://samanthafoster17.github.io/DayPlanner/" class="link-details" title="Visit Site"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://samanthafoster17.github.io/DayPlanner/">Day Planner</a></h4>
+                <p>
+                  <a href="https://github.com/Samanthafoster17/DayPlanner" target="_blank" role="button" aria-pressed="true" title="View Github Repository"><i class="fa fa-github"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="https://user-images.githubusercontent.com/68489432/92479839-1068d580-f1b2-11ea-89ec-8a336ea18ed5.png" class="img-fluid" alt="">
+                <a href="https://user-images.githubusercontent.com/68489432/92479839-1068d580-f1b2-11ea-89ec-8a336ea18ed5.png" class="link-preview" data-lightbox="portfolio" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="https://samanthafoster17.github.io/PasswordGenerator/" class="link-details" title="Visit Site"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://samanthafoster17.github.io/PasswordGenerator/">Password Generator</a></h4>
+                <p>
+                  <a href="https://github.com/Samanthafoster17/PasswordGenerator" target="_blank" role="button" aria-pressed="true" title="View Github Repository" id="github"><i class="fa fa-github"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="https://user-images.githubusercontent.com/68489432/95685693-80121c00-0bc7-11eb-8607-436fdab78e5a.png" class="img-fluid" alt="">
+                <a href="https://user-images.githubusercontent.com/68489432/95685693-80121c00-0bc7-11eb-8607-436fdab78e5a.png" class="link-preview" data-lightbox="portfolio" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="https://samanthafoster17.github.io/CodingQuiz/" class="link-details" title="Visit Site"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://samanthafoster17.github.io/CodingQuiz/">Coding Quiz</a></h4>
+                <p>
+                  <a href="https://github.com/Samanthafoster17/CodingQuiz" target="_blank" role="button" aria-pressed="true" id="github" title="View Github Repository"><i class="fa fa-github"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="https://user-images.githubusercontent.com/68489432/96654969-6d57bf80-130a-11eb-9232-7189055b85c2.png" class="img-fluid" alt="">
+                <a href="https://user-images.githubusercontent.com/68489432/96654969-6d57bf80-130a-11eb-9232-7189055b85c2.png" class="link-preview" data-lightbox="portfolio" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="https://drive.google.com/file/d/1paik2ukwZh83NE8BJXPgw4_H5K4VQQKL/view" class="link-details" title="View Video Demo"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://drive.google.com/file/d/1paik2ukwZh83NE8BJXPgw4_H5K4VQQKL/view">ReadMe Generator</a></h4>
+                <p>
+                  <a href="https://github.com/Samanthafoster17/README-generator" target="_blank" role="button" aria-pressed="true" id="github"><i class="fa fa-github"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="https://user-images.githubusercontent.com/68489432/97350568-059ff800-1867-11eb-98a7-2a11f0ae5c72.png" class="img-fluid" alt="">
+                <a href="https://user-images.githubusercontent.com/68489432/97350568-059ff800-1867-11eb-98a7-2a11f0ae5c72.png" class="link-preview" data-lightbox="portfolio" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="https://drive.google.com/file/d/1O9pUkSPvoIHZVVVmX3o4-mmy5LUF66C8/view" class="link-details" title="View Video Demo"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="https://drive.google.com/file/d/1O9pUkSPvoIHZVVVmX3o4-mmy5LUF66C8/view">Team Profile Generator</a></h4>
+                <p>
+                  <a href="https://github.com/Samanthafoster17/TeamProfileGenerator" target="_blank" role="button" aria-pressed="true" id="github" title="View Video Demo"><i class="fa fa-github"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+      
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+   
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header"> 
+          <h3>Contact Me</h3>
+        
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Location</h3>
+              <address> Middle River, MD 21220, USA</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+14437269854">+1(443)-726-9854</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:Samanthafoster17@gmail.com">Samanthafoster17@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+
+    <div class="wrapper">
+      <main class="container">
+        <h1 class="card title"></h1>
+        <form action="mailto:Samanthafoster17@gmail.com" method="POST" enctype="text/plain">
+          <section class="card">
+            <article class="card-body">
+          
+              <section class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" name="Name" required>
+                </div>
+              </section>
+              <section class="form-row">
+                <div class="col-md-10 mb-4">
+                  <label for="email">Email</label>
+                  <input type="text" class="form-control" name="E-mail" required>
+                </div>
+              </section>
+              <section class="form-row">
+                <label for="message">Message</label>
+                <textarea class="form-control" name="Message" rows="3"></textarea>
+              </section>
+              <section class="form-group row">
+                <div class="col-sm-10">
+                  <button id="submit" class="btn btn-primary" type="submit" name="Send Email" onclick="sendEmail()"
+                    value="Send Email">Send</button>
+                </div>
+              </section>
+              <div>
+                <nav class="nav flex-column flex-sm-row">
+              <a class="flex-sm-fill text-sm-center nav-link" href="https://github.com/Samanthafoster17" title="https://github.com/Samanthafoster17" target="_blank"> <i class="fa fa-github"><br>Github</i></a>
+             <a class="flex-sm-fill text-sm-center nav-link" href="https://www.linkedin.com/in/samantha-foster-1b1b141b2/" title="https://www.linkedin.com/in/samantha-foster-1b1b141b2/" target="_blank"> <i class="fa fa-linkedin"><br>LinkedIn</i></a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="tel:+14437269854" title="443-726-9854"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+              </svg><br> Call </a>
+                </nav>
+              </div>
+        </form>
+      </main>
+    </div>
+    </div>
+  
+  
+
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+       
+     </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+      
+     <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+ 
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+  
+  
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
   </div>
 
-  <div class="wrapper">
-    <main class="container">
-      <section class="card">
-        <article class="card-body">
-          <section class="row">
-            <article class="col-md-12">
-              <h1>About Me</h1>
+  <script>
+    function sendEmail() {
+      Email.send({
+        Host: " 96333fa8f956baf80a9bc7fd2e2b636a",
+        Username: "<Mailtrap username>",
+        Password: "<Mailtrap password>",
+        To: 'recipient@example.com',
+        From: "sender@example.com",
+        Subject: "Test email",
+        Body: "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
+      });
+    }
+  </script>
 
-              <section class="row">
-                <figure class="col-md-5">
-                  <img id="portrait" src="./assets/Screenshot 2020-10-16 160159.png" height="350px"
-                    width="350px" img class="card-img; img-responsive" alt="photo of Samantha">
-                </figure>
-                <article class="col-md-7">
-                  <p>
-                    Welcome! My name is Samantha Foster, Full stack web developer who has a passion for problem solving!
-                    Realizing each problem is an opportunity to gain more knowledge! After working many years with
-                    companies that limited room for growth, Decided to open more opportunities and began studying Full
-                    stack web development at Johns Hopkins University. While enrolled, always made time outside of class
-                    to apply and challenge newly developed skills by creating additional projects, collaborating with
-                    classmates, and reviewing previous projects to add improvements. Aside from development enjoys
-                    family time, exercise and cooking new foods. Motivated to join a team that will allow skills to not
-                    only be applied but also challenged. Thank you for taking the time to read about me! Please feel
-                    free to visit
-                    the contact and portfolio pages!
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
 
-                  </p>
-                </article>
-
-
-              </section>
-
-              <section class="row">
-                <article class="col-md-12">
-
-                  <p>
-
-                  </p>
-                </article>
-              </section>
-            </article>
-          </section>
-    </main>
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"></script>
-  </div>
 </body>
-
-<footer class="page-footer">-2020-</footer>
-
 </html>
