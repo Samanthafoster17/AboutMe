@@ -45,7 +45,6 @@ You may view GitHub profile here:
 
 ## Images:
 ![image](https://user-images.githubusercontent.com/68489432/99808213-87094400-2b0e-11eb-9385-842e9f99bd8a.png)
-![image](https://user-images.githubusercontent.com/68489432/99808229-8ec8e880-2b0e-11eb-8135-dbe585517895.png)
 ![image](https://user-images.githubusercontent.com/68489432/99808011-427da880-2b0e-11eb-8190-e507b56690ab.png)
 
 
