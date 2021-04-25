@@ -1581,4 +1581,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   #mobile-nav-toggle {
     display: inline;
   }
+
+  
+
+  #portfolio .portfolio-item figure .link-preview {
+    opacity: 1;
+    background-color:  rgba(216, 112, 147, 0.918);
+    left: calc(50% - 44px);
+  }
+  
+  #portfolio .portfolio-item figure .link-details {
+    opacity: 1;
+    background-color: rgba(216, 112, 147, 0.918);
+    right: calc(50% - 44px);
+  }
 }
