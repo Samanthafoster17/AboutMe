@@ -1340,6 +1340,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: pink;
 }
 
+
+
+/* tooltips */
+
+.tooltip-inner {
+  background-color: rgba(204, 115, 145, 0.795);
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+  border-right-color: pink;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
