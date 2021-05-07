@@ -35,6 +35,10 @@ html[data-theme='dark'] .section-header {
   filter: invert(1) hue-rotate(180deg)
 }
 
+html[data-theme='dark'] #mobile-nav {
+  filter: invert(1) hue-rotate(180deg)
+}
+
 html[data-theme='dark']  p {
   font-weight: bold;
 }
