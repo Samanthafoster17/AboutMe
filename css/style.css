@@ -1,3 +1,52 @@
+html {
+  
+}
+
+html[data-theme='dark'] {
+    background: #000;
+    filter: invert(1) hue-rotate(180deg)
+}
+
+html[data-theme='dark'] img {
+  filter: invert(1) hue-rotate(180deg)
+}
+
+html[data-theme='dark'] .carousel {
+  filter: invert(1) hue-rotate(180deg)
+}
+
+html[data-theme='dark'] header {
+  filter: invert(1) hue-rotate(180deg)
+}
+
+html[data-theme='dark'] footer {
+  filter: invert(1) hue-rotate(180deg)
+}
+
+html[data-theme='dark'] .progress {
+  filter: invert(1) hue-rotate(180deg) brightness(80%)
+}
+
+html[data-theme='dark'] h3 {
+  filter: invert(1) hue-rotate(180deg)
+}
+
+html[data-theme='dark'] .section-header {
+  filter: invert(1) hue-rotate(180deg)
+}
+
+html[data-theme='dark']  p {
+  font-weight: bold;
+}
+
+#dark, #light{
+  font-size: 14px;
+}
+
+
+
+
+
 body {
   background: #fff;
   color: #666666;
