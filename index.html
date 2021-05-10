@@ -69,13 +69,19 @@
           </li>
           <li><a href="#contact">Contact</a></li>
           <li>
-           <strong> View: </strong>
-          <br />
-            <button id="dark" class="btn btn-dark" onclick="toggleTheme('dark');">Dark</button>
 
-            <button id="light" class="btn btn-light" onclick="toggleTheme('light');">Light</button>
-          </li>
-        </ul>
+          <div class="dropdown">
+            <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-adjust"></i>
+            </button>
+          <ul class="dropdown-menu">
+            <li class="dropdown-item"><button id="dark" class="btn btn-dark"  data-toggle="tooltip" data-placement="bottom" title="View Dark Mode" onclick="toggleTheme('dark');">Dark</button></li>
+            <li class="dropdown-item"><button id="light" class="btn btn-light"  data-toggle="tooltip" data-placement="bottom" title="View Light Mode" onclick="toggleTheme('light');">Light</button></li>
+          </ul>
+        </div>
+
+      </li>  
+      </ul>
 
 
       </nav><!-- #nav-menu-container -->
